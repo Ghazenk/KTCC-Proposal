@@ -180,8 +180,9 @@ export default function App() {
                       >
                         <div className="w-14 h-14 rounded-2xl overflow-hidden border-2 border-white transition-all group-hover:border-primary shadow-sm flex-shrink-0 aspect-square">
                           <img 
-                            src="public/ghazen.jpeg" 
+                            src="/ghazen.jpeg" 
                             alt="Ghazen Khalid" 
+                            referrerPolicy="no-referrer"
                             className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                           />
                         </div>
@@ -205,8 +206,9 @@ export default function App() {
                       >
                         <div className="w-14 h-14 rounded-2xl overflow-hidden border-2 border-white transition-all group-hover:border-primary shadow-sm flex-shrink-0 aspect-square">
                           <img 
-                            src="public/aman.jpeg" 
+                            src="/aman.jpeg" 
                             alt="Aman" 
+                            referrerPolicy="no-referrer"
                             className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                           />
                         </div>
@@ -230,8 +232,9 @@ export default function App() {
                       >
                         <div className="w-14 h-14 rounded-2xl overflow-hidden border-2 border-white transition-all group-hover:border-primary shadow-sm flex-shrink-0 aspect-square">
                           <img 
-                            src="public/Mairaj.jpeg" 
+                            src="/mairaj.jpeg" 
                             alt="Mairaj Javed" 
+                            referrerPolicy="no-referrer"
                             className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                           />
                         </div>
