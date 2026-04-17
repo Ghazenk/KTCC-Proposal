@@ -2,7 +2,9 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-import ghazen from '../public/ghazen.jpeg'
+import ghazen from './assets/ghazen.jpeg'
+import aman from './assets/aman.jpeg'
+import mairaj from './assets/mairaj.jpeg'
 import React, { useState, ReactNode } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { 
@@ -205,7 +207,7 @@ export default function App() {
                       >
                         <div className="w-14 h-14 rounded-2xl overflow-hidden border-2 border-white transition-all group-hover:border-primary shadow-sm flex-shrink-0 aspect-square">
                           <img 
-                            src="/aman.jpeg" 
+                            src={aman} 
                             alt="Aman" 
                             className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                           />
