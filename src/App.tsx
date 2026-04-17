@@ -180,7 +180,7 @@ export default function App() {
                       >
                         <div className="w-14 h-14 rounded-2xl overflow-hidden border-2 border-white transition-all group-hover:border-primary shadow-sm flex-shrink-0 aspect-square">
                           <img 
-                            src="/ghazen.jpeg" 
+                            src="public/ghazen.jpeg" 
                             alt="Ghazen Khalid" 
                             className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                           />
@@ -205,7 +205,7 @@ export default function App() {
                       >
                         <div className="w-14 h-14 rounded-2xl overflow-hidden border-2 border-white transition-all group-hover:border-primary shadow-sm flex-shrink-0 aspect-square">
                           <img 
-                            src="/aman.jpeg" 
+                            src="public/aman.jpeg" 
                             alt="Aman" 
                             className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                           />
@@ -230,7 +230,7 @@ export default function App() {
                       >
                         <div className="w-14 h-14 rounded-2xl overflow-hidden border-2 border-white transition-all group-hover:border-primary shadow-sm flex-shrink-0 aspect-square">
                           <img 
-                            src="/Mairaj.jpeg" 
+                            src="public/Mairaj.jpeg" 
                             alt="Mairaj Javed" 
                             className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                           />
