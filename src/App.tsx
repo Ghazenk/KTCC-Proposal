@@ -182,7 +182,6 @@ export default function App() {
                           <img 
                             src="/ghazen.jpeg" 
                             alt="Ghazen Khalid" 
-                            referrerPolicy="no-referrer"
                             className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                           />
                         </div>
@@ -208,7 +207,6 @@ export default function App() {
                           <img 
                             src="/aman.jpeg" 
                             alt="Aman" 
-                            referrerPolicy="no-referrer"
                             className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                           />
                         </div>
@@ -234,7 +232,6 @@ export default function App() {
                           <img 
                             src="/mairaj.jpeg" 
                             alt="Mairaj Javed" 
-                            referrerPolicy="no-referrer"
                             className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                           />
                         </div>
