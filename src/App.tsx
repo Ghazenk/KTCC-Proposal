@@ -172,7 +172,7 @@ export default function App() {
                     <div className="space-y-6 w-full">
                       {/* Team Member 1: Leader */}
                       <a 
-                        href="mailto:1109193@stud.uot.edu.pk" 
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=1109193@stud.uot.edu.pk" 
                         target="_blank"
                         rel="noopener noreferrer"
                         title="Email Ghazen Khalid"
@@ -180,7 +180,7 @@ export default function App() {
                       >
                         <div className="w-14 h-14 rounded-2xl overflow-hidden border-2 border-white transition-all group-hover:border-primary shadow-sm flex-shrink-0 aspect-square">
                           <img 
-                            src="/Ghazen Khalid.jpeg" 
+                            src="/ghazen.jpeg" 
                             alt="Ghazen Khalid" 
                             className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                           />
@@ -197,7 +197,7 @@ export default function App() {
                       
                       {/* Team Member 2: Aman */}
                       <a 
-                        href="mailto:1110325@stud.uot.edu.pk" 
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=1110325@stud.uot.edu.pk" 
                         target="_blank"
                         rel="noopener noreferrer"
                         title="Email Aman"
@@ -222,7 +222,7 @@ export default function App() {
 
                       {/* Team Member 3: Mairaj */}
                       <a 
-                        href="mailto:1109159@stud.uot.edu.pk" 
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=1109159@stud.uot.edu.pk" 
                         target="_blank"
                         rel="noopener noreferrer"
                         title="Email Mairaj Javed"
@@ -485,7 +485,7 @@ export default function App() {
                            <p className="text-[10px] font-black text-primary-container uppercase tracking-widest mb-1">{contact.role}</p>
                            <h5 className="text-white font-bold text-xl mb-3">{contact.name}</h5>
                            <a 
-                             href={`mailto:${contact.email}`} 
+                             href={`https://mail.google.com/mail/?view=cm&fs=1&to=${contact.email}`} 
                              target="_blank"
                              rel="noopener noreferrer"
                              className="text-xs md:text-sm text-white font-mono py-3 px-6 rounded-full border border-white/10 hover:border-primary-container hover:bg-primary-container/20 transition-all bg-white/5 backdrop-blur-md flex items-center gap-3 shadow-lg group-hover/email:scale-105"
